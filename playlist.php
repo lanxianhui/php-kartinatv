@@ -26,8 +26,6 @@ $path  = getFullUrlPath();
 
 # generate header
 print '#EXTM3U' . "\n";
-print '#EXTVLCOPT:http-caching=1500' . "\n";
-print '#EXTVLCOPT:http-reconnect=0' . "\n";
 
 # generate channel entries
 for ($i = 0; $i < count($ids); $i++) {
